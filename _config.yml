@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: TMaize Blog
-description: TMaize的个人博客
+title: 光头的博
+description: 关于技术和生活
 keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+author: qychen
+# footerText: 'Copyright © 2016 皖ICP备16016174号'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -41,17 +41,17 @@ menu:
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
+extClickEffect: false
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
 extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
+extMath: true
 
 # 显示访问量统计，由不蒜子提供服务
-extCount: false
+extCount: true
 
 # 友情链接
 links:
